@@ -12,9 +12,14 @@ color: #000000;
 	margin: 0 auto;
 }
 
+.header {
+	background: #F1F5F7;
+}
+
 .header_top {
 	height: 42px;
 	background: #293449;
+	margin-bottom: 49px;
 }
 
 .header_top .container {
@@ -253,4 +258,138 @@ color: #000000;
 
 .order-button:active {
 	background: #518534;
+}
+
+.header_menu {
+	margin-bottom: 42px;
+}
+
+.header_menu .container {
+	display: flex;
+}
+
+.header_menu h1 {
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	box-sizing: border-box;
+	padding: 0 51px;
+	padding-left: 52px;
+	margin-right: 20px;
+
+	font-size: 16px;
+	line-height: 23px;
+	font-style: italic;
+	color: #ee3643;
+}
+
+.header_contacts {
+	width: 270px;
+	margin-right: 69px;
+}
+
+.header_contacts_phone {
+	position: relative;
+	box-sizing: border-box;
+
+	margin: 0;
+	margin-bottom: 5px;
+	padding: 8px 0;
+	padding-left: 71px;
+	padding-right: 47px;
+
+
+	font-size: 21px;
+	line-height: 18px;
+	color: #e9292a;
+
+	border: 3px solid #ffffff;
+}
+
+.header_contacts_phone::before {
+	content: "";
+	position: absolute;
+
+	width: 19px;
+	height: 19px;
+
+	top: 11px;
+	left: 12px;
+
+	background: url("../img/icon-phone.png") no-repeat;
+}
+
+.header_contacts_address {
+	margin: 0;
+	padding: 1px 9px;
+
+	font-size: 14px;
+	line-height: 24px;
+	color: #32425c;
+}
+
+
+.login {
+	margin: 0;
+
+	display: inline-block;
+	position: relative;
+	width: 121px;
+	box-sizing: border-box;
+
+	padding: 11px;
+	padding-left: 47px;
+	padding-right: 21px;
+	margin-right: 10px;
+
+	font-size: 21px;
+	line-height: 18px;
+	color: #000000;
+	text-decoration: none;
+
+	background: #ffffff;
+}
+
+.login::before {
+	content: "";
+	position: absolute;
+
+	width: 20px;
+	height: 17px;
+
+	top: 12px;
+	left: 14px;
+
+	background: url("../img/icon-login.png") no-repeat;
+}
+
+.login:hover, .register:hover {
+	color:#EE3643;
+}
+.login:hover::before {
+	background: url("../img/icon-login-hover.png") no-repeat;
+}
+
+.login:active, .register:active {
+	color:#CACACA;
+}
+
+.register {
+	margin: 0;
+
+	display: inline-block;
+	width: 145px;
+	box-sizing: border-box;
+	padding: 11px;
+	padding-left: 21px;
+	padding-right: 24px;
+
+	font-size: 21px;
+	line-height: 18px;
+	color: #000000;
+	text-decoration: none;
+
+	background: #ffffff;
+
+
 }
