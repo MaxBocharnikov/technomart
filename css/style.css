@@ -443,3 +443,196 @@ color: #000000;
 .header_navigation a:active {
 	background: #1D2739;
 }
+
+.promo_item {
+	display: inline-block;
+	position: relative;
+
+	width: 300px;
+	height: 123px;
+	box-sizing: border-box;
+	
+	margin-left: -3px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+
+	background: #F6B22D;
+	overflow: hidden;
+}
+
+.promo_item:nth-child(3),
+.promo_item:nth-child(5),
+.promo_item:nth-child(6){
+	margin-right: 0;
+}
+
+
+.promo_materials {
+	background: #F6B22D;
+} 
+
+.promo_tool {
+	background: #4AAFDE;
+} 
+
+
+.promo_equipment {
+	background: #CC79D1;
+} 
+
+
+.promo_discounts {
+	background: #85D179;
+} 
+
+
+.promo_delivery {
+	background: #F6B22D;
+} 
+
+.promo_title {
+	display: block;
+
+
+	margin: 0;
+	padding: 0;
+
+	margin-top: 18px;
+	margin-left: 24px;
+
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #ffffff;	
+}
+
+.promo_item a {
+	margin: 0;
+	padding: 0;
+
+	display: block;
+	width: 135px;
+	box-sizing: border-box;
+
+	padding: 12px 15px;
+	margin-top: 12px;
+	margin-left: 26px;
+
+	text-align: center;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 5%;
+
+}
+
+
+.promo_item a:hover {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.promo_item a:active {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.promo_materials::after {
+	content: "";
+	position: absolute;
+
+	width: 44px;
+	height: 65px;
+
+	top: 28px;
+	right: 39px;
+
+	background: url("../img/icon-materials.png");
+}
+
+
+.promo_tool::after {
+	content: "";
+	position: absolute;
+
+	width: 75px;
+	height: 61px;
+
+	top: 31px;
+	right: 26px;
+
+	background: url("../img/icon-tool.png");
+}
+
+.promo_equipment::after {
+	content: "";
+	position: absolute;
+
+	width: 78px;
+	height: 62px;
+
+	top: 30px;
+	right: 29px;
+
+	background: url("../img/icon-equipment.png");
+}
+
+.promo_discounts::after {
+	content: "";
+	position: absolute;
+
+	width: 59px;
+	height: 72px;
+
+	top: 24px;
+	right: 41px;
+
+	background: url("../img/icon-discounts.png");
+}
+
+
+.promo_delivery::after {
+	content: "";
+	position: absolute;
+
+	width: 78px;
+	height: 63px;
+
+	top: 30px;
+	right: 26px;
+
+	background: url("../img/icon-delivery.png");
+}
+
+
+
+.promo_slider {
+	float: left;
+	width: 620px;
+	height: 266px;
+	
+	margin-right: 20px;
+	background: blue;
+}
+
+.promo_item .new {
+	position: absolute;
+
+	width: 60px;
+
+	padding: 5px 15px;
+    right: -27px;
+    top: 3px;
+
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+	text-align: center;
+
+	background: #E9292A;
+
+	transform:rotate(45deg);
+	
+}
