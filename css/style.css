@@ -444,6 +444,10 @@ color: #000000;
 	background: #1D2739;
 }
 
+.promo {
+	margin-bottom: 32px;
+}
+
 .promo_item {
 	display: inline-block;
 	position: relative;
@@ -606,7 +610,7 @@ color: #000000;
 	background: url("../img/icon-delivery.png");
 }
 
-.promo_item .new {
+ .flag {
 	position: absolute;
 
 	width: 60px;
@@ -620,11 +624,15 @@ color: #000000;
 	color: #ffffff;
 	text-align: center;
 
-	background: #E9292A;
+
 
 	transform:rotate(45deg);
 	
 }
+
+ .flag-new {
+ 	background: #E9292A;
+ }
 
 
 .promo_slider {
@@ -755,3 +763,271 @@ color: #000000;
 	display: none;
 	background: url("../img/slide2.jpg");
 }
+
+.popular_title {
+	display: flex;
+	width: 100%;
+	padding: 25px 0px;
+	margin-bottom: 20px;
+
+	background: #F7F3EC;
+}
+
+.popular_title h2 {
+	margin: 0;
+	padding: 6px 2px;
+    letter-spacing: -1px;
+
+	width: 430px;
+
+	margin-right: 200px;
+	margin-left: 30px;
+
+	font-size: 30px;
+	line-height: 30px;
+	color: #32425c;
+	text-transform:uppercase;
+}
+
+.popular_title a {
+	margin: 0;
+	width: 255px;
+	box-sizing: border-box;
+	padding: 11px 37px;
+
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+
+	background: #EE3643;
+	border-radius: 5%;
+}
+
+.popular_title a:hover {
+	background: #CA2C37;
+}
+
+.popular_title a:active {
+	background: #BA2732;
+}
+
+.popular_items {
+	font-size: 0;
+}
+
+.popular_items .row {
+	margin-left: -20px;
+}
+.popular_item {
+	display: inline-block;
+	position: relative;
+
+	width: 218px;
+
+	margin-left: 20px;
+	margin-bottom: 5px;
+
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+
+	overflow: hidden;
+
+	border: 1px solid #E5E5E5;
+}
+
+/*.popular_item:nth-child(4n) {
+	margin-right: 0;
+}*/
+
+
+.popular_item .flag {
+	padding: 5px 18px;
+	z-index: 20;
+}
+
+.popular_item .image_block {
+	width: 218px;
+	height: 168px;
+}
+
+.popular_item .item_title {
+	font-weight: bold;
+	min-height: 40px;
+	padding: 0 24px;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.old_price {
+	display: block;
+
+	font-size: 17px;
+	line-height: 18px;
+	color: #999999;
+	text-decoration: line-through;
+	min-height: 17px;
+
+	margin-bottom: 10px;
+}
+
+.actual_price {
+	display: block;
+	position: relative;
+
+	width: 80px;
+
+	padding: 11px 30px;
+	margin: 0 46px;
+	margin-bottom: 20px;
+
+	font-size: 17px;
+	line-height: 17px;
+	color: #ffffff;
+
+	background: #EE3643;
+	border-radius: 5%;
+}
+
+.actual_price::after {
+	content: "";
+
+	position: absolute;
+
+	width: 0;
+	height: 0;
+
+	top:0;
+	right:-20px;
+
+	border: 22px solid white;
+	border-left-color: transparent;
+	
+}
+
+
+
+.popular_item .actions {
+	display: none;
+	position: absolute;
+
+	width: 218px;
+	height: 168px;
+
+	top:0;
+	left: 0;
+
+	padding: 45px 0;
+
+	z-index: 10;
+
+	background: rgba(255,255,255,0.9);
+}
+
+.popular_item .actions_button {
+	display: block;
+
+	width: 132px;
+
+	padding: 9px 0px;
+	margin: 0 auto;
+	margin-bottom: 7px;
+
+	font-family: 'Cuprum', sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	background:#63A63E;
+	border: 3px solid #63A63E;
+	border-bottom-color:#367315; 
+	border-radius: 5%;
+
+}
+
+.popular_item .actions_button_bookmark {
+	color:#32425c;
+
+	background: #ffffff;
+	border-bottom-color:#63A63E; 
+}
+
+.popular_item .actions_button_buy {
+	position: relative;
+}
+
+.popular_item .actions_button_buy::before {
+	content: "";
+	position: absolute;
+
+	width: 17px;
+	height: 16px;
+
+	top:7px;
+	left: 10px;
+
+	opacity: 0.3;
+
+	background: url("../img/item-icon-basket.png");
+}
+
+.popular_item .actions_button_buy:hover {
+	background: #5FBB2D;
+}
+
+.popular_item .actions_button_buy:active {
+	background: #518534;
+}
+
+.popular_item .actions_button_buy:hover::before {
+	opacity: 1.0;
+}
+
+.popular_item .actions_button_buy:active::before {
+	opacity: 1.0;
+}
+
+.popular_item .actions_button_bookmark:hover {
+	border-color:#32425C 
+}
+
+.popular_item .actions_button_bookmark:active {
+	border-color:#C1C6CE; 
+	opacity:0.3;
+}
+
+.popular_item:hover {
+	box-shadow: 0px 10px 25px 0px rgba(41, 52, 73, 0.5); 
+
+	/* brands-active-shadow
+	box-shadow: 0px 4px 10px 0px rgba(41, 52, 73, 0.5);
+	*/
+}
+
+.popular_item:hover .actions {
+	display: block;
+}
+
+.popular_producers .popular_item .image_block {
+	height: 143px;
+	cursor: pointer;
+}
+
+
+.popular_producers .popular_item:active {
+	box-shadow: 0px 4px 10px 0px rgba(41, 52, 73, 0.5);
+}
+
+.popular_producers .popular_item .image_block:active {
+	opacity: 0.3;
+}
+
