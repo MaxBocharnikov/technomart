@@ -1031,3 +1031,227 @@ color: #000000;
 	opacity: 0.3;
 }
 
+.popular_producers {
+	margin-bottom: 72px;
+}
+
+.service {
+	padding-top: 65px;
+	padding-bottom: 102px;
+	background: #F2F6F8;
+}
+
+.service_title_block h2 {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 30px;
+
+	font-size: 30px;
+	line-height: 24px;
+	color: #000000;
+	text-transform: uppercase;
+	letter-spacing: -0.9px;
+}
+
+.service_title_block p {
+	margin: 0;
+	padding: 0;
+
+	width: 430px;
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+	letter-spacing: 1px;
+
+	margin-bottom: 66px;
+}
+
+.service_items {
+	display: flex;
+}
+
+.service_list {
+	position: relative;
+	margin-right: 80px;
+}
+
+.service_list::after {
+	content: "";
+	position: absolute;
+
+	width: 10px;
+	height: 272px;
+
+	top:-43px;
+	right: 0;
+
+
+	background: url("../img/service-list-shadow.png");
+
+}
+
+.service_list ul {
+	margin: 0;
+	padding: 0;
+}
+
+.service_list li {
+	position: relative;
+
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+
+}
+
+
+.service_list a {
+	display: block;
+	width: 240px;
+	padding: 16px 21px;
+	box-sizing: border-box;
+
+	font-size: 21px;
+	line-height: 30px;
+	color: #ffffff;
+	text-decoration: none;
+
+	background: #32425C;
+}
+
+.service_list a::after {
+	content: "";
+	position: absolute;
+
+	bottom: 0;
+	left: 0;
+
+	width: 240px;
+	height:2px;
+
+	background: url("../img/service-list-line.png");
+}
+
+
+.service_list a:hover  {
+	background: #293449;
+}
+
+
+
+.service_list .active {
+	color: #32425C;
+	background: #ffffff;
+}
+
+.service_list .active::after {
+	background: none;
+}
+
+.service_list .active:hover {
+	color: #32425C;
+	background: #ffffff;
+}
+
+.service_item {
+	position: relative;
+	width: 620px;
+	margin-top: 6px;
+
+	z-index: 10;
+}
+
+.service_item_delivery {
+	display: block;
+}
+
+.service_item::after {
+	content: "";
+	position: absolute;
+
+	bottom: -101px;
+	right: 2px;
+}
+
+.service_item_delivery::after {
+	width: 468px;
+	height: 261px;
+
+	background: url("../img/service_delivery.png");
+}
+
+.service_item_guarantee {
+	display: none;
+}
+
+.service_item_guarantee::after {
+	width: 389px;
+	height: 263px;
+
+	background: url("../img/service_guarantee.png");
+}
+
+
+.service_item_credit {
+	display: none;
+}
+
+.service_item_credit::after {
+	width: 465px;
+	height: 285px;
+
+	background: url("../img/service_credit.png");
+}
+
+.service_item h2 {
+	margin: 0;
+	padding: 0;
+
+	font-size: 36px;
+	line-height: 24px;
+	color: #32425c;
+	text-transform: uppercase;
+	letter-spacing: -0.5px;
+
+	margin-bottom: 32px;
+}
+
+
+.service_item p {
+	margin:0;
+	padding: 0;
+
+	width: 437px;
+	margin-bottom: 28px;
+
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.service_item_button {
+	display: block;
+	box-sizing: border-box;
+
+	width: 194px;
+	padding: 12px 40px;
+
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	background: #EE3643;
+	border-radius: 5%;
+
+}
+
+.service_item_button:hover {
+	background: #CA2C37;
+}
+
+.service_item_button:active {
+	background: #BA2732;
+}
