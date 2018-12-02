@@ -6,6 +6,7 @@ color: #000000;
 /*font-family: 'PT Sans', sans-serif;*/
 }
 
+
 .container {
 	width: 940px;
 	padding: 0 10px;
@@ -1038,6 +1039,7 @@ color: #000000;
 .service {
 	padding-top: 65px;
 	padding-bottom: 102px;
+	margin-bottom: 82px;
 	background: #F2F6F8;
 }
 
@@ -1255,3 +1257,125 @@ color: #000000;
 .service_item_button:active {
 	background: #BA2732;
 }
+
+.company {
+	margin-bottom: 86px;
+}
+
+.company .container {
+	display: flex;
+}
+
+
+.about {
+	width: 540px;
+	margin-right: 100px;
+}
+
+.company_header {
+	padding: 0;
+	margin: 0;
+
+	margin-bottom: 28px;
+
+	font-size: 30px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.company p {
+	margin: 0;
+	padding: 0;
+
+	margin-bottom: 22px;
+
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+
+}
+
+
+.about_list {
+	margin: 0;
+	padding: 0;
+}
+
+.about_list li {
+	position: relative;
+	margin: 0;
+	padding: 0;
+
+	padding-left: 36px;
+	margin-bottom: 21px;
+
+	font-size: 18px;
+	line-height: 20px;
+	color: #000000;
+	list-style: none;
+}
+
+.about_list li::before {
+	content: "";
+	position: absolute;
+
+	top: 50%;
+	left: 0;
+
+	width: 25px;
+	height: 2px;
+
+	background: #FB565A;
+}
+
+
+.about_list li:last-child {
+	margin-bottom: 0;
+}
+
+.company_button  {
+	display: inline-block;
+
+    margin-top: 36px;
+
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+
+	background:#EE3643;
+	border-radius: 5%;
+}
+
+.company_button:hover {
+	background: #CA2C37;
+}
+
+.company_button:active {
+	background: #BA2732;
+}
+
+.about_button {
+    padding: 10px 40px;
+}
+
+.contacts_button {
+	padding: 10px 61px;
+}
+
+
+.contacts p {
+	margin-bottom: 31px;
+}
+
+.contacts .map {
+	width: 300px;
+	height: 158px;
+
+	margin-bottom: 4px;
+}
+
+
