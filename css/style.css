@@ -15,7 +15,7 @@ color: #000000;
 
 .header {
 	background: #F1F5F7;
-	margin-bottom: 60px;
+	/*margin-bottom: 60px;*/
 }
 
 .header_top {
@@ -446,6 +446,7 @@ color: #000000;
 }
 
 .promo {
+	margin-top: 60px;
 	margin-bottom: 32px;
 }
 
@@ -1565,3 +1566,72 @@ color: #000000;
 .feedback a:active {
 	color: #ee3643;
 }
+
+.top_meta {
+	padding: 17px 0;
+}
+
+.breadcrumbs {
+	margin-bottom: 18px;
+}
+.breadcrumbs a {
+	position: relative;
+	margin-right: 37px;
+
+	font-family: 'PT Sans', sans-serif; 
+	font-size: 13px;
+	line-height: 18px;
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.breadcrumbs a::after {
+	content: "";
+	position: absolute;
+
+	width: 8px;
+	height: 12px;
+
+	top: 0;
+	right: -24px;
+
+	background: url("../img/breadcrumbs-right.png");
+}
+
+.breadcrumbs a:last-child::after {
+	width: 0px;
+	height: 0px;
+
+	background: none;
+}
+
+.breadcrumbs .breadcrumbs_home {
+	display: inline-block;
+
+	width: 15px;
+	height: 12px;
+
+
+	font-size: 0;
+
+	background: url("../img/breadcrumbs-home.png") no-repeat;
+}
+
+.page_title {
+	margin: 0;
+	padding: 29px 27px;
+
+	font-size: 30px;
+	line-height: 30px;
+	color: #32425c;
+	text-transform: uppercase;
+	letter-spacing: -0.5px;
+	
+	background: #F2F6F8;
+}
+
+.catalog .container {
+	display: flex;
+}
+
