@@ -70,7 +70,7 @@
 		<article class="catalog">
 			<div class="container">
 				<aside class="filter">
-					<h2>Фильтр</h2>
+					<h2>Фильтр:</h2>
 					<form action="some" method="get" class="filter_form">
 
 						<div class="filter_price">
@@ -78,15 +78,15 @@
 							<div class="range">
 								<div class="scale">
 									<div class="bar"></div>
-								</div>
 								<div class="range_left"></div>
 								<div class="range_right"></div>
+								</div>
 							</div>
 
 							<div class="price_value">
-								<input type="text" name="price_from" value="0">
-								<span>-</span>
-								<input type="text" name="price_to" value="30000">
+								<input type="text" class="price_from" name="price_from"  value="0">
+								<span>—</span>
+								<input type="text" class="price_to" name="price_to" value="30000">
 							</div>
 						</div>
 
@@ -97,44 +97,57 @@
 									<label>
 										Bosch
 										<input type="checkbox" name="producers" value="bosch" checked="">
+										<span class="checkbox_indicator"></span>
 									</label>
 								</li>
 								<li>	
 									<label>
 										Интерскол
 										<input type="checkbox" name="producers" value="interskol">
+										<span class="checkbox_indicator"></span>
 									</label>
 								</li>
 								<li>
 									<label>
 										Makita
 										<input type="checkbox" name="producers" value="makita" checked="">
+										<span class="checkbox_indicator"></span>
 									</label>
 								</li>
 								<li>
 									<label>
 										Dewalt
 										<input type="checkbox" name="producers" value="dewalt">
+										<span class="checkbox_indicator"></span>
 									</label>
 								</li>
 								<li>
 									<label>
 										Hitachi
 										<input type="checkbox" name="producers" value="Hitachi">
+										<span class="checkbox_indicator"></span>
 									</label>
 								</li>
 							</ul>
+							<div class="border"></div>
 						</div>
 
 						<div class="filter_power">
+							<h3 class="filter_title">Питание:</h3>
 							<ul>
 								<li>
-									<label>Аккумуляторные</label>
-									<input type="radio" name="power" value="akb" checked="">
+									<label>
+									Аккумуляторные
+										<input type="radio" name="power" value="akb" checked="">
+										<span class="radio_indicator"></span>
+									</label>
 								</li>
 								<li>
-									<label>Сетевые	</label>
-									<input type="radio" name="power" value="electro">
+									<label>
+									Сетевые
+										<input type="radio" name="power" value="electro">
+										<span class="radio_indicator"></span>
+									</label>
 								</li>
 							</ul>
 						</div>
