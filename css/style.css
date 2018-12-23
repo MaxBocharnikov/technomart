@@ -1088,6 +1088,7 @@ color: #000000;
 	overflow: hidden;
 
 	border: 1px solid #E5E5E5;
+	vertical-align: top;
 }
 
 .catalog_item {
